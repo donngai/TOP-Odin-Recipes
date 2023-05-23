@@ -8,11 +8,27 @@ h1 {
 }
 
 img {
-    width: 100px;
+    width: 150px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: inline;
+}
+
+div.list {
+    display: inline-block;
+    width: 500px;
+    padding: 0px 50px 0px 20px;
+    border-style: none;
+    background-color: rgb(241, 255, 50);
+}
+
+div {
+    width: max-content;
+    margin: auto;
     display: block;
+    padding: 5px;
+    border-style: dotted;
+    background-color: antiquewhite;
 }
 
 .food {
@@ -22,15 +38,24 @@ img {
 
 li.recipes {
     font-size: 25px;
+    padding: 5px;
 }
 
 li, p {
     font-size: 20px;
-    color: blue;
+    color: rgb(0, 110, 255);
 }
 
 h3 {
     font-size: 25px;
     text-decoration: underline;
     color: red
+}
+
+span {
+    font-style: italic;
+    color: black;
+    border-style: ridge;
+    display: inline-block;
+    padding: 2px;
 }
